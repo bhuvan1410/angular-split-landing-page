@@ -1,0 +1,46 @@
+.split-landing-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 100vh; 
+    overflow: hidden; 
+  }
+  
+  .ps5-section,
+  .xbox-section {
+    flex: 1;
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .ps5-section {
+    background-color: #003791;
+    color: #fff;
+  }
+  
+  .xbox-section {
+    background-color: #107c10;
+    color: #fff;
+  }
+  
+  .ps5-section img,
+  .xbox-section img {
+    max-width: 50%;
+    height: auto; 
+    margin: 0 auto; 
+  }
+  
+  h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
